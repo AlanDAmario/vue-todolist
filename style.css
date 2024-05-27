@@ -1,6 +1,8 @@
+body{
+    background-color: coral;
+}
 .logo {
-
-    width: 40%;
+    width: 35%;
     background-size: cover;
 }
 
@@ -10,4 +12,8 @@
 
 .click:hover {
     cursor: pointer;
+}
+
+.lineThrough{
+    text-decoration: line-through;
 }
