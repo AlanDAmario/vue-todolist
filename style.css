@@ -1,0 +1,13 @@
+.logo {
+
+    width: 40%;
+    background-size: cover;
+}
+
+.bg-none {
+    background-color: #FFF3CD;
+}
+
+.click:hover {
+    cursor: pointer;
+}
