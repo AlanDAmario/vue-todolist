@@ -24,8 +24,12 @@ createApp({
     indexCount: 0,
     emptyList: '',
     methods: {
-        empty(){
-            
+        empty(emptyIndex) {
+            console.log(emptyIndex);
+            this.list = this.list.filter((_ , indexFilter) => {
+                console.log(indexFilter);
+                return indexFilter !== emptyIndex
+            })
         }
     },
 }).mount('#app');
